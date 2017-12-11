@@ -1,0 +1,40 @@
+{
+  "name": "cast",
+  "version": "1.0.0",
+  "description": "Enforces JS variables to be of certain type",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forde/cast.git"
+  },
+  "keywords": [
+    "casting",
+    "js",
+    "variables",
+    "enforce",
+    "type"
+  ],
+  "author": "@forde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forde/cast/issues"
+  },
+  "homepage": "https://github.com/forde/cast#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "watch": "^1.0.2"
+  }
+}
