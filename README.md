@@ -4,13 +4,13 @@ Enforces JS variables to be of certain type
 # Example
 
 ```shell
-$ yarn add cast
+$ yarn add cast2
 ```
 
 ```javascript
-const { cast } = require('cast');
+const { cast } = require('cast2');
 // ES2015
-import { cast } from 'cast';
+import { cast } from 'cast2';
 
 
 cast.str(ANY_VALUE) // ''
